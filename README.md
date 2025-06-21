@@ -9,7 +9,7 @@ The framework uses **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, and 
 
 - 🔍 Product search (valid & invalid)
 - 🛒 Add to cart and complete purchase
-- 🛡️ Basic security validation (XSS input detection)
+- 🛡️ Basic security validation (XSS input detection & SQLi)
 - 🧪 TestNG test suite support
 - 📊 Allure HTML reports
 
@@ -28,31 +28,16 @@ The framework uses **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, and 
 
 ---
 
-## 📂 Project Structure
 
+## ✅ How to Run the Project?
+Open IDE (as intelliJ) then click 'File' tab then 'New' tab then 'Project from Version Control' then choose "Repositry URL" then enter *"https://github.com/AbdelrahmanAyman11/MagentoProject1.git"* then make Version Control : Git thrn click Clone then Run 'Executable_File.xml' as normal Run then open terminal and enter this command 'allure serve allure-results' for allure report.
 
-│ ├── main
-│ │ └── java
-│ │ ├── pages/ # Page Object Model classes
-│ │ ├── base/ # Base setup for WebDriver
-│ │ └── utils/ # Input validation / helpers
-│ └── test
-│ └── java
-│ └── tests/ # TestNG test classes
-├── Executable_File.xml
-├── pom.xml
-└── README.md
-## ✅ How to Run the Project??(2 Ways):
-Way 1 : Download as A project and Open it from IDE like (IntelliJ) then Run 'Executable_File.xml' as normal Run then open terminal and enter this command 'allure serve allure-results' for allure report.
-Way2 : using Command Line >> git clone https://github.com/AbdelrahmanAyman11/MagentoProject1.git >> 'Executable_File.xml' as normal Run then open terminal and enter this command 'allure serve allure-results' for allure report.
 
 
 🔐 Security Tests
 This project includes basic input validation via:
-
 InputValidator.java for detecting potential XSS patterns
-
-Example in SecurityValidationTest.java to simulate unsafe inputs
+Example in SecurityValidationTest.java to simulate unsafe inputs (SQL Injection & XSS)
 
 🙋‍♂️ Author
 Abdelrahman Ayman Fahmy
