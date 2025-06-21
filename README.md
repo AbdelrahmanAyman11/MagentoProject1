@@ -20,11 +20,11 @@ The framework uses **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, and 
 | Tool        | Version        |
 |-------------|----------------|
 | Java        | 17+            |
-| Maven       | 3.6+           |
+| Maven       | 3.9+           |
 | Selenium    | 4+             |
 | TestNG      | 7+             |
 | Allure      | 2.24.0         |
-| Browser     | Chrome (default) |
+| Browser     | Edge (default) |
 
 ---
 
