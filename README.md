@@ -19,7 +19,7 @@ The framework uses **Java**, **Selenium WebDriver**, **TestNG**, **Maven**, and 
 
 | Tool        | Version        |
 |-------------|----------------|
-| Java        | 17+            |
+| Java        | 11+            |
 | Maven       | 3.9+           |
 | Selenium    | 4+             |
 | TestNG      | 7+             |
