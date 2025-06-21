@@ -11,11 +11,11 @@ public class CheckoutPage {
 
     public CheckoutPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(25));
     }
 
     public void fillEmail(String email) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[1]/fieldset/div/div/input"))).sendKeys(email);    }
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer-email"))).sendKeys(email);    }
 
     public void fillFirstName(String firstName) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[4]/ol/li[1]/div[2]/form[2]/div/div[1]/div/input"))).sendKeys(firstName);    }
