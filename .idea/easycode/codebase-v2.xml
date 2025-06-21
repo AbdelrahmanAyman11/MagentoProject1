@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/Pages/HomePage.java;D:/MagentoProject1/src/main/java/Pages/ProductPage.java;D:/MagentoProject1/src/main/java/Pages/SearchPage.java;D:/MagentoProject1/src/main/java/Pages/ShoppingCartPage.java;D:/MagentoProject1/src/test/java/BaseTestClass/BaseClass.java;D:/MagentoProject1/src/test/java/Tests/CheckoutTest.java;D:/MagentoProject1/src/test/java/Tests/CompletePurchaseTest.java;D:/MagentoProject1/src/test/java/Tests/ProductToCartTest.java;D:/MagentoProject1/src/test/java/Tests/SearchTest.java" />
+  </component>
+</project>

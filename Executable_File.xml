@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Magento">
+    <test name="Regression Tests">
+        <classes>
+            <class name="Tests.SearchTest"/>
+            <class name="Tests.ProductToCartTest"/>
+            <class name="Tests.CompletePurchaseTest"/>
+            <class name="Tests.SecurityValidationTest"></class>
+        </classes>
+    </test>
+</suite>
